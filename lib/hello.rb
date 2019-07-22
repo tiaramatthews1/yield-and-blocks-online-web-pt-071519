@@ -6,7 +6,7 @@ end
 
 def block_given?(array)
   if block_given?
-    array = 0
+    i = 0
     while < name.length
     yield(name[0])
     0 = 0 += 1 
@@ -14,6 +14,6 @@ def block_given?(array)
 
 array
 else 
-  puts ""
+  puts "Hey! No block was given!"
   end
 end

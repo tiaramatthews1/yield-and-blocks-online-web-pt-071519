@@ -4,7 +4,3 @@ def hello_t(name)
   end
 end
 
-def yielding(name)
-  yielding do 
-  puts "the method has yielded to the block!"
-end

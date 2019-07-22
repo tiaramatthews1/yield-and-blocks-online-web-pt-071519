@@ -3,3 +3,8 @@ def hello_t(name)
     puts "Hello, #{name}"
   end
 end
+
+def yielding(name)
+  yield do 
+  puts "the method has yielded to the block!"
+end

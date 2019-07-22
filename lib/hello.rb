@@ -4,3 +4,7 @@ def hello_t(name)
   end
 end
 
+def hello_t()
+  
+  end
+end

@@ -4,7 +4,7 @@ def hello_t(name)
   end
 end
 
-def block_given?(array)
+def hello_t(array)
   if block_given?
     i = 0
     while < name.length

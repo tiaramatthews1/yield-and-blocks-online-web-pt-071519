@@ -8,8 +8,8 @@ def block_given?(array)
   if block_given?
     i = 0
     while < name.length
-    yield(name[0])
-    0 = 0 += 1 
+    yield(array[i])
+    i = i += 1 
   end
 
 array

@@ -5,6 +5,6 @@ def hello_t(name)
 end
 
 def yielding(name)
-  yield do 
+  yielding do 
   puts "the method has yielded to the block!"
 end

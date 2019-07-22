@@ -1,6 +1,5 @@
-def hello_t
-
+def hello_t(name)
+["Tim", "Tom", "Jim"].each do |name|
+    puts "Hello, #{name}"
+  end
 end
-
-# call your method here!
-
